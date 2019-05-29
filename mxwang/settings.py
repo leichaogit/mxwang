@@ -134,6 +134,7 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 # 静态文件地址拼接，后面'static'文件为自己建立的存放静态文件（JS，IMG，CSS）的文件名
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),  # 主文件下静态文件
     # os.path.join(BASE_DIR, "blog", "statics"),  # 项目blog文件下静态文件
